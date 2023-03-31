@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="./css/@media.css">
+   <title>Kalipta page-4 (About us)</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <!-- header -->
+      <header id="header" class="header">
+         <div class="header__container">
+            <div class="header__header">
+               <div class="header__logo">
+                  <a href="#main">
+                     <img class="header__logo-img" src="./img/header/svg/Лого.svg" alt="Лого">
+                  </a>
+               </div>
+               <div class="header__info">
+                  <div class="header__info-week">
+                     <div class="header__info-time">
+                        <p class="header__info-time-p">Понедельник - Воскресенье <span>10:00 - 22:00</span></p>
+                     </div>
+                     <div id="open_modal-pop-ups" class="header__info-signup button-popup">
+                        <img width="35" height="35" src="./img/header/svg/Calendar.svg" alt="Календарь">
+                        <a href="main">
+                           <p>Записаться</p>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="header__info-today">
+                     <p>Запишитесь на прием сегодня</p>
+                     <p class="header__info-todaynumber">+7<span>(800)</span>555-35-35</p>
+                     <a href=""><img width="39" height="39" src="./img/header/svg/Phone.svg" alt="Телефон"></a>
+                  </div>
+               </div>
+            </div>
+            <!--  -->
+            <div class="btn-group-burgersmenu">
+               <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                     <li class="menunav__links"><a href="../Page-1/index.html">Главная</a></li>
+                     <li class="menunav__links"><a href="../Page-4/index4.html">О нас</a></li>
+                     <li class="menunav__link-services"><a href="../Page-5/index5.html">
+                           <div class="btn-group">
+                              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                                 Услуги
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                 <li><button class="dropdown-item" type="button"> Услуга 1</button></li>
+                                 <li><button class="dropdown-item" type="button"> Услуга 2</button></li>
+                                 <li><button class="dropdown-item" type="button"> Услуга 3</button></li>
+                              </ul>
+                           </div>
+                     </li></a>
+                     <li class="menunav__links"><a href="../Page-7/index7.html">Прайс</a></li>
+                     <li class="menunav__links"><a href="../Page-1/index.html">Акции</a></li>
+                     <li class="menunav__links"><a href="../Page-2/index2.html">Галерея</a></li>
+                     <li class="menunav__links"><a href="../Page-1/index.html">Отзывы</a></li>
+                     <li class="menunav__links"><a href="../Page-6/index6.html">Вопросы</a></li>
+                     <li class="menunav__links"><a href="#footer">Контакты</a></li>
+                     <a href="#"><img class="burger__imges" src="./img/header/svg/ЛогоMini.svg" alt="ЛогоМини"></a>
+                  </div>
+               </div>
+               <nav class="navbar navbar-dark bg-dark">
+                  <div class="container-fluid">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                  </div>
+               </nav>
+            </div>
+            <!--  -->
+            <nav class="header__menunav menunav">
+               <ul class="menunav__list menunav__list-burger ">
+                  <li class="menunav__link"><a href="../Page-1/index.html">Главная</a></li>
+                  <li class="menunav__link"><a href="../Page-4/index4.html">О нас</a></li>
+                  <li class="menunav__link"><a href="../Page-5/index5.html">Услуги</a></li>
+                  <li class="menunav__link"><a href="../Page-7/index7.html">Прайс</a></li>
+                  <li class="menunav__link"><a href="../Page-1/index.html">Акции</a></li>
+                  <li class="menunav__link"><a href="../Page-2/index2.html">Галерея</a></li>
+                  <li class="menunav__link"><a href="../Page-1/index.html">Отзывы</a></li>
+                  <li class="menunav__link"><a href="../Page-6/index6.html">Вопросы</a></li>
+                  <li class="menunav__link"><a href="#footer">Контакты</a></li>
+               </ul>
+            </nav>
+            <div class="header__repair">
+               <p class="header__repair-cycle">О нас</p>
+               <h2 class="header__repair-text">Главная<span> / О нас</span></h2>
+            </div>
+         </div>
+         <!--  -->
+         <div class="header__headerimg _ibg">
+            <img src="./img/header/HeaderIMG.jpg" alt="Фон для header">
+         </div>
+      </header>
+      <div id="popups" class="popup">
+         <div class="pop__up-container">
+            <div id="pop__up-bodys" class="pop__up-body">
+               <div class="pop__up-bodyheader">Запланируйте<p> обслуживание <span>автомобиля</span></p>
+               </div>
+               <p class="pop__up-bodytext">Чтобы записаться на прием, позвоните нам по телефону
+                  1-800-123-4567 или заполните форму
+                  ниже,
+                  указав информацию о себе и желаемых услугах.</p>
+               <form class="pop__up-form" action="">
+                  <h2>Контактная информация</h2>
+                  <input tabindex="1" class="form-form-form" placeholder="Ваше имя" type="text">
+                  <input tabindex="2" class="form-form-form" placeholder="Номер телефона" type="number">
+                  <input tabindex="3" placeholder="Email" type="email">
+                  <h2>Информация о авто</h2>
+                  <input tabindex="4" placeholder="Марка" type="text">
+                  <input tabindex="5" placeholder="Модель" type="number">
+                  <input tabindex="6" placeholder="Год" type="number">
+                  <h2>Уточните детали</h2>
+                  <input tabindex="7" type="date">
+                  <input tabindex="8" placeholder="10:00" type="number">
+                  <div class="pop__up-bodylabelblock">
+                     <label class="pop__up-bodylabel" for="file">
+                        <span> Выберите фото</span>
+                        <input id="file" class="pop__up-form-file" tabindex="9" placeholder="Выберите фото" type="file">
+                     </label>
+                  </div>
+                  <button><a href=""> Подтвердить</a></button>
+                  <p>Обратите внимание, что запрошенные вами дата и время могут быть недоступны.</p>
+               </form>
+               <div id="pop__up-closes" class="pop__up-close">&#10006;</div>
+            </div>
+         </div>
+      </div>
+      <!-- main -->
+      <main id="main" class="main">
+         <div class="main__main __container2">
+            <div class="main__main-title title">
+               <div class="title__pic">
+                  <img src="./img/main/main-pic-main.jpg" alt="Фото Соткудника с фоном картинки">
+               </div>
+               <div class="title__main">
+                  <div class="title__title">
+                     <span>Репутация,</span>
+                     <p>создававшаяся 25 лет</p>
+                  </div>
+                  <div class="title__line"></div>
+                  <p class="title__text">Наша семья занимается общим ремонтом автомобилей уже более двух десятилетий, и
+                     бизнес продолжает развиваться.
+                     <br /> <br />
+                     Калипта Авто Партс - автосервис в России, обслуживающий местное сообщество и близлежащие районы на
+                     протяжении 25 лет. Наши техники, сертифицированные ASE, готовы выполнить любой необходимый ремонт
+                     автомобиля или решить любые проблемы, с которыми вы можете столкнуться. Андрей Смирнов, владелец.
+                  </p>
+               </div>
+            </div>
+            <div class="main__main-text main-text">
+               <div class="main-text-element1">
+                  <p class="main-text-element-title">Миссия</p>
+                  <p class="main-text-element-text">Наша миссия - служить нашим клиентам и всегда обеспечивать
+                     высочайший уровень обслуживания клиентов; развивать нашу команду и стремиться к постоянному
+                     совершенствованию; и вести себя экологически ответственно.</p>
+               </div>
+               <div class="main-text-element2">
+                  <p class="main-text-element-title">Наше видение</p>
+                  <p class="main-text-element-text">Быть самым интересным в мире лидером в области решений для
+                     автомобильной бизнес-аналитики. Мы будем вызывать восторг благодаря реализации новаторских идей,
+                     решению проблем и превзойдем ожидания наших клиентов.</p>
+               </div>
+               <div class="main-text-element3">
+                  <p class="main-text-element-title">Основные ценности</p>
+                  <ul>
+                     <li class="main-text-element3-list">
+                        <img src="./img/main/svg/Галочка.svg" alt="Галочка">
+                        <p>Работа в команде через доверие и уважение.</p>
+                     </li>
+                     <li class="main-text-element3-list">
+                        <img src="./img/main/svg/Галочка.svg" alt="Галочка">
+                        <p>Приверженность энтузиазму клиентов.</p>
+                     </li>
+                     <li class="main-text-element3-list">
+                        <img src="./img/main/svg/Галочка.svg" alt="Галочка">
+                        <p>Ответственность на всех уровнях.</p>
+                     </li>
+                     <li class="main-text-element3-list">
+                        <img src="./img/main/svg/Галочка.svg" alt="Галочка">
+                        <p>Страсть к победе.</p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="main__advantages">
+            <div class="main__advantages-container __container advantages">
+               <div class="advantages__title">
+                  <p class="advantages__title-title">Преимущества</p>
+                  <p class="advantages__title-text">нашего сервиса</p>
+                  <div class="advantages__title-line"></div>
+               </div>
+               <div class="main__advantages-elements elements">
+                  <div class="elements__elements1 elements1">
+                     <p class="elements1-text">Обслуживание вашего автомобиля - это важная задача, которую нельзя
+                        игнорировать или забывать.
+                     </p>
+                     <a href=""><button class="elements1-button"><img src="./img/header/svg/Calendar.svg"
+                              alt="Белый календарь">
+                           Записаться</button></a>
+                  </div>
+                  <div class="elements__elements2 elements2">
+                     <p class="elements2-title">Клиент-ориентированный
+                        сервис</p>
+                     <p class="elements2-text">Мы ценим предоставляемые нами услуги, и наши постоянные клиенты всегда
+                        могут рассчитывать на
+                        определенную благодарность с нашей стороны, например, на скидку на будущие услуги.
+                     </p>
+                  </div>
+                  <div class="elements__elements3 elements3">
+                     <p class="elements2-title">Высококачественные
+                        автозапчасти</p>
+                     <p class="elements2-text">Мы ценим предоставляемые нами услуги, и наши постоянные клиенты всегда
+                        могут рассчитывать на
+                        определенную благодарность с нашей стороны, например, на скидку на будущие услуги.
+                     </p>
+                  </div>
+                  <div class="elements__elements4 elements4">
+                     <p class="elements2-title">Доступные
+                        цены</p>
+                     <p class="elements2-text">Мы ценим предоставляемые нами услуги, и наши постоянные клиенты всегда
+                        могут рассчитывать на
+                        определенную благодарность с нашей стороны, например, на скидку на будущие услуги.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="main__ourteam __container">
+            <div class="main__ourteam-blocktitle">
+               <p class="main__ourteam-blocktitle-title">Наша команда</p>
+               <p class="main__ourteam-blocktitle-text">Благодаря тому, что мы работаем со многими марками автомобилей,
+                  нашим специалистам можно доверять в
+                  правильной
+                  диагностировать различные ремонтные работы.</p>
+               <div class="main__ourteam-blocktitle-line"></div>
+            </div>
+            <div class="main__ourteam-blocktitle-people block-people">
+               <div class="block-people-element1">
+                  <img src="./img/main/Гоша Куценко.jpg" alt="Гоша Куценко">
+                  <h5 class="block-people-element-title">Гоша Куценко</h5>
+                  <p class="block-people-element-text">Главный механик</p>
+               </div>
+               <div class="block-people-element2">
+                  <img src="./img/main/Иван Синицев.jpg" alt="Иван Синицев">
+                  <h5 class="block-people-element-title">Иван Синицев</h5>
+                  <p class="block-people-element-text">Директор</p>
+               </div>
+               <div class="block-people-element3">
+                  <img src="./img/main/Антон Антонов.jpg" alt="Антон Антонов">
+                  <h5 class="block-people-element-title">Антон Антонов</h5>
+                  <p class="block-people-element-text">Механик</p>
+               </div>
+            </div>
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <img src="./img/main/Гоша Куценко.jpg" alt="Антон Антонов">
+                     <h5>Гоша Куценко</h5>
+                     <p>Главный механик</p>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./img/main/Иван Синицев.jpg" alt="Гоша Куценко">
+                     <h5>Иван Синицев</h5>
+                     <p>Директор</p>
+                  </div>
+                  <div class="swiper-slide">
+                     <img src="./img/main/Антон Антонов.jpg" alt="Иван Синицев">
+                     <h5>Антон Антонов</h5>
+                     <p>Механик</p>
+                  </div>
+               </div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+         <div class="main__help __container">
+            <div class="main__help-main">
+               <h4 class="main__help-title">Нужна помощь с вашим автомобилем? Мы починим его</h4>
+               <p class="main__help-text">Ваш специалист по ремонту и техническому обслуживанию автомобилей</p>
+               <p class="main__help-number">8 (800) 555-35-35</p>
+               <a class="main__help-button" href=""> <button class="elements1-button"><img
+                        src="./img/header/svg/Calendar.svg" alt="Calendar">
+                     Записаться</button></a>
+            </div>
+         </div>
+   </div>
+   <!--                                                                     -->
+   <div class="main__map">
+      <div id="map" style="width:100%; height:529px"></div>
+   </div>
+   </main>
+   <!-- footer -->
+   <footer id="footer" class="footer">
+      <div class="footer__footer __container">
+         <div class="footer__block">
+            <div class="footer__block-element1">
+               <div class="footer__block-element1-logo-text">
+                  <img class="footer__block-element1-logo" src="./img/footer/Logo_Footer.svg" alt="Логотип для Footer">
+                  <p class="footer__block-element1-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                     do
+                     amet sint. Velit officia consequat
+                     duis enim velit mollit.</p>
+               </div>
+               <div class="footer__block-element1-socialnetwork">
+                  <a href="#"> <img class="footer__block-element1-socialnetwork-inst" src="./img/footer/svg/inst.svg"
+                        alt="inst"></a>
+                  <a href="#"> <img class="footer__block-element1-socialnetwork-telegram"
+                        src="./img/footer/svg/telegram.svg" alt="telegram"></a>
+                  <a href="#"> <img class="footer__block-element1-socialnetwork-youtube"
+                        src="./img/footer/svg/youtube.svg" alt="youtube"></a>
+               </div>
+            </div>
+            <div class="footer__block-element2">
+               <h3 class="footer__block-element2-title">Полезные ссылки</h3>
+               <ul class="footer__block-element2-list">
+                  <li class="footer__block-element2-link"><a href="#">Amet minim mollit </a></li>
+                  <li class="footer__block-element2-link"><a href="#">Amet minim mollit </a></li>
+                  <li class="footer__block-element2-link"><a href="#">Amet minim mollit </a></li>
+                  <li class="footer__block-element2-link"><a href="#">Amet minim mollit </a></li>
+               </ul>
+            </div>
+            <div class="footer__block-element3">
+               <h3 class="footer__block-element3-title">Контактная информация</h3>
+               <ul class="footer__block-element3-link-list">
+                  <li class="footer__block-element3-link"><a href="#">Адрес: Москва, ул Неизвестного 1.</a></li>
+                  <li class="footer__block-element3-link"><a href="#">Телефон: 8 (800) 555-35-35 </a></li>
+                  <li class="footer__block-element3-link"><a href="#">Email : example@kalipta.ru</a></li>
+               </ul>
+            </div>
+            <div class="footer__block-element4">
+               <h3 class="footer__block-element4-title">Важная подписка</h3>
+               <p class="footer__block-element4-text">Подписывайтесь и узнавайте самую важную информацию и
+                  предложения</p>
+               <div class="footer__block-element4-button">
+                  <input type="text" placeholder="Email" class="footer__block-element4-button-input">
+                  <a href="#">
+                     <div class="footer__block-element4-string"><img src="./img/footer/svg/white-strinf.svg"
+                           alt="Белая Стрелка">
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer__reservantur">
+         <p class="footer__reservantur-text">©️ 2023 Калипта. Все права защищены</p>
+      </div>
+   </footer>
+   </div>
+
+   <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+      </script>
+   <script src="./js/main.js">
+   </script>
+</body>
+
+</html>
